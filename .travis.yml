@@ -17,16 +17,16 @@ matrix:
   include:
     - os: linux
       sudo: required
-      jdk: oraclejdk8
+      jdk: openjdk8
     - os: linux
       sudo: required
       jdk: oraclejdk9
     - os: linux
       sudo: required
-      jdk: oraclejdk10
+      jdk: openjdk10
     - os: linux
       sudo: required
-      jdk: openjdk11
+      jdk: oraclejdk11
 
 script: ./gradlew check --info --stacktrace --console=plain --max-workers=1 --no-daemon --build-cache -Dkotlin.colors.enabled=false
 
