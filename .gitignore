@@ -1,0 +1,31 @@
+###################################################################################
+#                                                                                 #
+# NAME: .gitignore                                                                #
+#                                                                                 #
+# AUTHOR: Michael Brockus.                                                        #
+#                                                                                 #
+# CONTACT: <mailto:michael@squidfarts.com>                                        #
+#                                                                                 #
+# NOTICES:                                                                        #
+#                                                                                 #
+# License: Apache 2.0 :http://www.apache.org/licenses/LICENSE-2.0                 #
+#                                                                                 #
+###################################################################################
+# gradle
+.gradle
+build
+
+# idea
+.idea
+*.iml
+local.properties
+out/
+
+# mr (see .mrconfig)
+wiki
+
+# vim
+*.sw?
+
+# generated code
+.teamcity
